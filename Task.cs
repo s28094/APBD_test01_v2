@@ -10,4 +10,6 @@ public class Task
     public int IdTaskType { get; set; }
     public int IdAssignedTo { get; set; }
     public int IdCreator { get; set; }
+    public string ProjectName { get; set; }
+    public string TaskTypeName { get; set; }
 }
